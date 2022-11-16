@@ -1,0 +1,46 @@
+body {
+  background: #282828;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+    Arial, sans-serif;
+}
+
+#topo {
+  margin: auto;
+  display: block;
+  height: 200px;
+  width: 60%;
+  background: url(imagens-portfolio/dev.png) no-repeat;
+}
+
+#barra-lateral {
+  margin-top: 20px;
+  width: 160px;
+  height: 400px;
+  float: left;
+}
+
+.ul-lateral li {
+  width: 100px;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  margin-left: -15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+  color: #fff;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.671);
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: #fff;
+}
+
+footer {
+}
