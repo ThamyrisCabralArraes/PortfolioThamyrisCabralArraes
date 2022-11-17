@@ -1,12 +1,11 @@
 body {
-  background: #fff;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
     Arial, sans-serif;
 }
 
 #topo {
-  background: url(imagens-portfolio/dev.png) no-repeat;
-  margin: auto;
+  background: url(imagens-portfolio/topo.png) no-repeat;
+  margin-left: 600px;
   height: 200px;
 }
 
@@ -24,9 +23,9 @@ body {
   list-style: none;
   font-size: 25px;
   text-align: center;
-  margin: 20px;
-  padding: 10px;
-  margin-left: -25px;
+  /* margin: 10px; */
+  padding: 20px;
+  margin-left: -20px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.308);
   color: #fff;
 }
@@ -50,6 +49,33 @@ a:hover {
   color: #730217;
   text-align: center;
   /* padding: 10px 25px; */
+}
+
+#conteudo-sobre {
+  width: 1500px;
+  height: 800px;
+  margin-top: 100px;
+  color: #730217;
+  text-align: center;
+}
+
+#conteudo-linguagem {
+  font-size: 20px;
+  width: 1500px;
+  height: 800px;
+  margin-top: 100px;
+  margin-left: 250px;
+  color: #730217;
+}
+.a-linguagem {
+  color: #730217;
+}
+.a-linguagem:visited {
+  color: #730217;
+}
+.a-linguagem:hover {
+  color: #730217;
+  font-weight: bold;
 }
 
 #rodape {
